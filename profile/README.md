@@ -16,4 +16,4 @@ make &&
 make run``
 
 Or simply run ``./fast-all.sh`` for an interactive setup TUI!
-Check out the repo on GitHub: https://github.com/madebyanto/piux-kernel
+Check out the repo on GitHub: https://github.com/projectpiux/piux-kernel
