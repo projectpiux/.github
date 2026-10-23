@@ -4,16 +4,17 @@
 
 ✨ **Key Features:**
 * 🖥️ **pwm (Text Window Manager):** Tiled terminal environment supporting up to 4 split terminals with full mouse & keyboard focus!
+* 🖥️ **pde (Graphical Desktop Environment):** Graphical desktop environment with start menu, windows, etc...
 * 🎨 **Framebuffer Graphics:** Native 1280×720 @ 32-bit color rendering with custom bitmap fonts & software double buffering (no flickering!).
 * 💾 **Ext2 Filesystem & Persistent Editing:** Full read/write support on ext2 disks with a built-in `nano` text editor (plus RAMFS fallback).
 * 🔒 **Auth & Installation:** Includes a first-boot installer TUI, user login, and SHA-256 password hashing.
-* ⚡ **Ultra-Lightweight:** Runs on a minimum of **16 MiB RAM** and an **8 MiB disk**!
+* ⚡ **Ultra-Lightweight:** Runs on a minimum of **24 MiB RAM** and an **32 MiB disk**!
 
 🛠️ **Quick Start (QEMU):**
-``git clone https://github.com/madebyanto/piux-kernel.git &&
+``git clone https://github.com/projectpiux/piux-kernel.git &&
 cd piux-kernel-main &&
 make &&
 make run``
 
-Or simply run ``./fast-all.sh`` for an interactive setup TUI!
+Or simply run ``bash fast-all.sh`` for an interactive setup TUI!
 Check out the repo on GitHub: https://github.com/projectpiux/piux-kernel
